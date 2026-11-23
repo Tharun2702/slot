@@ -28,131 +28,78 @@ Execute the program using runserver command.
 
 ## PROGRAM
 '''
-<!DOCTYPE html>
 <html>
 <head>
-<title>Saveetha Time Table</title>
-
-<style>
-body {
-    text-align: center;
-    font-family: "Times New Roman";
-}
-
-.logo {
-    width: 580px;
-    height: 120px;
-    object-fit: contain;
-    margin-top: 10px;
-}
-
-h3 {
-    margin: 15px;
-}
-
-table {
-    margin: 15px auto 25px;
-    border-collapse: collapse;
-    width: 600px;
-}
-
-th, td {
-    border: 1px solid black;
-    padding: 8px;
-    text-align: center;
-}
-
-.timetable th {
-    background-color: yellow;
-}
-
-.timetable td {
-    background-color: #00dddd;
-}
-
-.subject {
-    border-collapse: collapse;
-    outline: 4px double gray;
-}
-
-.subject th,
-.subject td {
-    background-color: white;
-    border: 1px solid gray;
-}
-
-
-</style>
+<title>My Time Table</title>
 </head>
-
 <body>
 
-<!-- COLLEGE LOGO -->
-<img src="logo.png" class="logo" alt="Saveetha College Logo">
+<center>
+    <img src="logo.png" width="580" height="120">
+    
+</center>
+<h3 align="center">TIME TABLE-Tharun.R (26016280)</h3>
 
-<h2>SAVEETHA ENGINEERING COLLEGE</h2>
-<h3>SLOT TIME TABLE - Tharun .R (26016280)</h3>
+<table border="2" width="100%" cellpadding="10" cellspacing="2">
 
-<!-- TIME TABLE -->
-
-<table class="timetable">
-
-<tr>
-<th>Day/Time</th>
-<th>Monday</th>
-<th>Tuesday</th>
-<th>Wednesday</th>
-<th>Thursday</th>
-<th>Friday</th>
-<th>Saturday</th>
+<tr bgcolor="yellow" height="50">
+<th>DAY / TIME</th>
+<th>MONDAY</th>
+<th>TUESDAY</th>
+<th>WEDNESDAY</th>
+<th>THURSDAY</th>
+<th>FRIDAY</th>
+<th>SATURDAY</th>
 </tr>
 
-<tr>
-<th>8-9.30</th>
-<td colspan="3">FREE SLOT</td>
-<td>BEEE</td>
-<td>CHE</td>
-<td>Free slot</td>
+<tr bgcolor="cyan" height="60">
+<th>8:00 - 9:30</th>
+<td>FREE SLOT</td>
+<td>CE</td>
+<td>FWAD</td>
+<td>SNM</td>
+<td>PY</td>
+<td>FREE SLOT</td>
 </tr>
 
-<tr>
-<th>9.45-11.15</th>
+<tr bgcolor="cyan" height="60">
+<th>9:45 - 11:15</th>
+<td>FWAD</td>
 <td>EDM</td>
+<td>PY</td>
+<td>BEEM</td>
+<td>SNM</td>
+<td>FREE SLOT</td>
+</tr>
+
+<tr bgcolor="red" height="40">
+<th bgcolor="blur">11.15-1.00</th>
+
+<th colspan="7">LUNCH</th>
+</tr>
+
+<tr bgcolor="cyan" height="60">
+<th>1:15 - 3:00</th>
 <td>FREE SLOT</td>
 <td>FWAD</td>
-<td>FWAD</td>
-<td>BEEE</td>
-<td>Free slot</td>
+<td>FREE SLOT</td>
+<td>SNM</td>
+<td>PY</td>
+<td>FREE SLOT</td>
 </tr>
 
-<tr>
-<th>11-1</th>
-<td colspan="6">L U N C H</td>
-</tr>
-
-<tr>
-<th>1-2.45</th>
-<td colspan="2">FREE SLOT</td>
-<td>MAT</td>
-<td>MAT</td>
-<td>SS</td>
-<td>Free slot</td>
-</tr>
-
-<tr>
-<th>3-4.30</th>
-<td colspan="2">FREE SLOT</td>
+<tr bgcolor="cyan" height="60">
+<th>3:00 - 4:30</th>
+<td>FREE SLOT</td>
 <td>EDM</td>
-<td>CHE</td>
-<td>FWAD</td>
-<td>Free slot</td>
+<td>PY</td>
+<td>BEEM</td>
+<td>FREE SLOT</td>
+<td>FREE SLOT</td>
 </tr>
 
 </table>
-
-<!-- SUBJECT DETAILS -->
-
-<table class="subject">
+<table border="2" width="600" cellpadding="5" cellspacing="2">
 
 <tr>
 <th>S. No.</th>
@@ -161,39 +108,39 @@ th, td {
 </tr>
 
 <tr>
-<td>1.</td>
-<td>19AI414</td>
+<td align="center">1.</td>
+<td align="center">19AI414</td>
 <td>Fundamentals of Web Application Development (FWAD)</td>
 </tr>
 
 <tr>
-<td>2.</td>
-<td>19EN612</td>
-<td>Engineering design and molleding(EDM)</td>
+<td align="center">2.</td>
+<td align="center">19EN101</td>
+<td>Communicative English (CE)</td>
 </tr>
 
 <tr>
-<td>3.</td>
-<td>19PH206</td>
-<td>Baic Electrical And Elecronic Engineering(BEEE)</td>
+<td align="center">3.</td>
+<td align="center">19AI302</td>
+<td>Engineering Design And Modelling(EDM)</td>
 </tr>
 
 <tr>
-<td>4.</td>
-<td>19CY205</td>
-<td>Principles of Chemistry in Engineering (CHE)</td>
+<td align="center">4.</td>
+<td align="center">19MA211</td>
+<td>Statistics And Numerical Methods(SNM)</td>
 </tr>
 
 <tr>
-<td>5.</td>
-<td>19MA201</td>
-<td>Calculus and Matrix Algebra (MAT)</td>
+<td align="center">5.</td>
+<td align="center">19EE305</td>
+<td>Basic Electrical And Electronic Engeering(BEEE)</td>
 </tr>
 
 <tr>
-<td>6.</td>
-<td>19EY701</td>
-<td>Soft Skills (SS)</td>
+<td align="center">6.</td>
+<td align="center">19AI301</td>
+<td>Python Programming(PY)</td>
 </tr>
 
 </table>
@@ -203,7 +150,11 @@ th, td {
 '''
 
 ## OUTPUT
-![alt text](image.png)
+
+![alt text](image-1.png)
+
+
+
 
 ## RESULT
 The program for creating slot timetable using basic HTML tags is executed successfully.
