@@ -1,5 +1,5 @@
 # Ex04 Time Table
-## Date:17/11/2026
+## Date:18/11/2026
 
 ## AIM
 To write a html webpage page to display your slot timetable.
@@ -27,8 +27,8 @@ Add your course schedule using ```<td>``` tag.
 Execute the program using runserver command.
 
 ## PROGRAM
-'''
-<html>
+
+'''<html>
 <head>
 <title>My Time Table</title>
 </head>
